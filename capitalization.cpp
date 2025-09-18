@@ -14,7 +14,7 @@ int main() {
     std::cout << "Enter a word or sentence: ";
     getline(std::cin, s);
 
-    for (char& c : s) { // pass by reference because modifying
+    for (char& c : s) { // pass by reference because modifying; char c does nothing, just reads
         c = std::toupper(c);
     }
     
