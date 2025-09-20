@@ -22,7 +22,6 @@ int main() {
     }
 
     std::cout << "Total vowel count is " << count << std::endl;
-    
 
     return 0;
 }
